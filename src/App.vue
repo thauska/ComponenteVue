@@ -3,6 +3,7 @@
     <ButtonVue></ButtonVue>
     <ButtonString></ButtonString>
     <ButtonTemplateString></ButtonTemplateString>
+    <ButtonXTemplate></ButtonXTemplate>
   </div>
 </template>
 

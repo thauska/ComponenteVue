@@ -8,8 +8,12 @@
     <title><%= htmlWebpackPlugin.options.title %></title>
   </head>
   <body>
-    <div id="root">
+    <div id="root"></div>
 
-    </div>
+    <script type="text/x-template" id="button-x-template">
+      <button @click="click">
+        Click ButtonXTemplate {{ count }} times
+      </button>
+    </script>
   </body>
 </html>

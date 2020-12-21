@@ -31,3 +31,17 @@ Vue.component('ButtonTemplateString', {
     }
   }
 })
+
+Vue.component('ButtonXTemplate', {
+  template: '#button-x-template',
+  data() {
+    return {
+      count: 0
+    };
+  },
+  methods: {
+    click() {
+      this.count++;
+    }
+  }
+})
