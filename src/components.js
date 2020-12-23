@@ -58,3 +58,29 @@ Vue.component('ButtonInlineTemplate', {
     }
   }
 })
+
+Vue.component('ButtonRender', {
+  data() {
+    return {
+      count: 0
+    };
+  },
+  methods: {
+    click() {
+      this.count++;
+    }
+  },
+  render(createElement) {
+    return createElement(
+      'button',
+      {
+        on: {
+          click: this.click
+        }
+      },
+      [
+        `Click ButtonRender ${this.count} times`
+      ]
+    )
+  }
+})

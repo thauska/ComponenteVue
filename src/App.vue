@@ -9,6 +9,7 @@
         Click ButtonInlineTemplate {{ count }} times
       </button>
     </ButtonInlineTemplate>
+    <ButtonRender></ButtonRender>
   </div>
 </template>
 
