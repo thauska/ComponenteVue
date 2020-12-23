@@ -45,3 +45,16 @@ Vue.component('ButtonXTemplate', {
     }
   }
 })
+
+Vue.component('ButtonInlineTemplate', {
+  data() {
+    return {
+      count: 0
+    };
+  },
+  methods: {
+    click() {
+      this.count++;
+    }
+  }
+})

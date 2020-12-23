@@ -4,6 +4,11 @@
     <ButtonString></ButtonString>
     <ButtonTemplateString></ButtonTemplateString>
     <ButtonXTemplate></ButtonXTemplate>
+    <ButtonInlineTemplate inline-template>
+      <button @click="click">
+        Click ButtonInlineTemplate {{ count }} times
+      </button>
+    </ButtonInlineTemplate>
   </div>
 </template>
 
