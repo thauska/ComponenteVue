@@ -84,3 +84,23 @@ Vue.component('ButtonRender', {
     )
   }
 })
+
+Vue.component('ButtonJSX', {
+  data() {
+    return {
+      count: 0
+    };
+  },
+  methods: {
+    click() {
+      this.count++;
+    }
+  },
+  render() {
+    return (
+      <button onClick={this.click}>
+        Click ButtonJSX {this.count} times
+      </button>
+    )
+  }
+})

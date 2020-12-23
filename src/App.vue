@@ -10,6 +10,7 @@
       </button>
     </ButtonInlineTemplate>
     <ButtonRender></ButtonRender>
+    <ButtonJSX></ButtonJSX>
   </div>
 </template>
 
